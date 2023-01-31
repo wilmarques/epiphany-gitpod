@@ -1,0 +1,16 @@
+image:
+  file: .gitpod/Dockerfile
+
+ports:
+  - port: 5900
+    onOpen: ignore
+    name: VNC Server
+  - port: 6080
+    onOpen: ignore
+    name: VNC Client
+    description: noVNC web client
+
+vscode:
+  extensions:
+    - editorconfig.editorconfig
+    - ms-azuretools.vscode-docker
